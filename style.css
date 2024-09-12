@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue;
+    background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -41,4 +41,22 @@ body {
     width: 150px;
     border: solid 3px white;
     text-align: center;
+}
+
+input[type=text]{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+}
+
+input[type=button]{
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background: #3220ff;
+    color: white;
+    padding: 12px 9px;
+}
+
+#form{
+    display: flex;
 }
